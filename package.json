@@ -1,8 +1,8 @@
 {
-  "name": "@bbob/parser",
-  "version": "1.2.0",
+  "name": "@hammad.fauz/parser",
+  "version": "1.0.0",
   "description": "Fast, flexible, and lean implementation of BBcode parser",
-  "homepage": "https://github.com/JiLiZART/bbob",
+  "homepage": "https://github.com/hammadfauz/bbparser.git",
   "keywords": [
     "bbcode",
     "parser",
@@ -18,30 +18,20 @@
     "serialize",
     "html"
   ],
-  "main": "lib/index.js",
+  "main": "dist/main.js",
   "dependencies": {
-    "@bbob/plugin-helper": "^1.1.0",
-    "rollup": "^0.64.1"
+    "@hammad.fauz/plugin-helper": "^1.0.0",
+    "webpack": "^4.16.5"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/JiLiZART/bbob.git"
+    "url": "https://github.com/hammadfauz/bbparser.git"
   },
   "scripts": {
-    "build": "./node_modules/.bin/rollup -c",
-    "dev": "./node_modules/.bin/rollup -c -w",
-    "test": "../../node_modules/.bin/jest --",
-    "cover": "../../node_modules/.bin/jest --coverage",
-    "lint": "../../node_modules/.bin/eslint .",
-    "size": "../../node_modules/.bin/size-limit"
+    "build": "./node_modules/.bin/rollup -c"
   },
-  "author": "Nikolay Kostyurin <jilizart@gmail.com>",
+  "author": "Hammad Fauz <hammad.fauz@gmail.com>",
   "license": "MIT",
-  "size-limit": [
-    {
-      "path": "lib/index.js"
-    }
-  ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

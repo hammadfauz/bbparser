@@ -1,0 +1,75 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add webpack
+
+PATH: 
+  C:\Program Files (x86)\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PuTTY\;C:\Users\Hammad\AppData\Local\Microsoft\WindowsApps;"C:\Program Files (x86)\Minimal ADB and Fastboot";C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Users\Hammad\AppData\Local\Microsoft\WindowsApps;C:\Users\Hammad\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;C:\Users\Hammad\AppData\Local\GitHubDesktop\bin;C:\Users\Hammad\AppData\Local\Microsoft\WindowsApps;C:\Users\Hammad\AppData\Roaming\nvm;C:\Program Files\nodejs;
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  7.10.1
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "@hammad.fauz/parser",
+    "version": "1.0.0",
+    "description": "Fast, flexible, and lean implementation of BBcode parser",
+    "homepage": "https://github.com/hammadfauz/bbparser.git",
+    "keywords": [
+      "bbcode",
+      "parser",
+      "fast",
+      "bbcode parser",
+      "bbcodeparser",
+      "bbob",
+      "serializer",
+      "bbcode serializer",
+      "bbcode serializer",
+      "bbcodeserializer",
+      "parse",
+      "serialize",
+      "html"
+    ],
+    "main": "lib/index.js",
+    "dependencies": {
+      "@hammad.fauz/plugin-helper": "^1.0.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/hammadfauz/bbparser.git"
+    },
+    "scripts": {
+      "build": "./node_modules/.bin/rollup -c"
+    },
+    "author": "Hammad Fauz <hammad.fauz@gmail.com>",
+    "license": "MIT",
+    "publishConfig": {
+      "registry": "https://registry.npmjs.org/"
+    },
+    "files": [
+      "lib"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@hammad.fauz%2fplugin-helper: Not found
+      at Request.params.callback [as _callback] (C:\Users\Hammad\AppData\Roaming\nvm\v7.10.1\node_modules\yarn\lib\cli.js:65019:18)
+      at Request.self.callback (C:\Users\Hammad\AppData\Roaming\nvm\v7.10.1\node_modules\yarn\lib\cli.js:132430:22)
+      at emitTwo (events.js:106:13)
+      at Request.emit (events.js:194:7)
+      at Request.<anonymous> (C:\Users\Hammad\AppData\Roaming\nvm\v7.10.1\node_modules\yarn\lib\cli.js:133413:10)
+      at emitOne (events.js:96:13)
+      at Request.emit (events.js:191:7)
+      at IncomingMessage.<anonymous> (C:\Users\Hammad\AppData\Roaming\nvm\v7.10.1\node_modules\yarn\lib\cli.js:133333:12)
+      at Object.onceWrapper (events.js:293:19)
+      at emitNone (events.js:91:20)
