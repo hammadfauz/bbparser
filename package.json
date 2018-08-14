@@ -1,0 +1,51 @@
+{
+  "name": "@bbob/parser",
+  "version": "1.2.0",
+  "description": "Fast, flexible, and lean implementation of BBcode parser",
+  "homepage": "https://github.com/JiLiZART/bbob",
+  "keywords": [
+    "bbcode",
+    "parser",
+    "fast",
+    "bbcode parser",
+    "bbcodeparser",
+    "bbob",
+    "serializer",
+    "bbcode serializer",
+    "bbcode serializer",
+    "bbcodeserializer",
+    "parse",
+    "serialize",
+    "html"
+  ],
+  "main": "lib/index.js",
+  "dependencies": {
+    "@bbob/plugin-helper": "^1.1.0",
+    "rollup": "^0.64.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JiLiZART/bbob.git"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/rollup -c",
+    "dev": "./node_modules/.bin/rollup -c -w",
+    "test": "../../node_modules/.bin/jest --",
+    "cover": "../../node_modules/.bin/jest --coverage",
+    "lint": "../../node_modules/.bin/eslint .",
+    "size": "../../node_modules/.bin/size-limit"
+  },
+  "author": "Nikolay Kostyurin <jilizart@gmail.com>",
+  "license": "MIT",
+  "size-limit": [
+    {
+      "path": "lib/index.js"
+    }
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "lib"
+  ]
+}
