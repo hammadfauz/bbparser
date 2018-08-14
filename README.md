@@ -1,6 +1,6 @@
-# @bbob/parser
-[![install size](https://packagephobia.now.sh/badge?p=@bbob/parser)](https://packagephobia.now.sh/result?p=@bbob/parser) [![Known Vulnerabilities](https://snyk.io/test/github/JiLiZART/bbob/badge.svg?targetFile=packages%2Fbbob-parser%2Fpackage.json)](https://snyk.io/test/github/JiLiZART/bbob?targetFile=packages%2Fbbob-parser%2Fpackage.json)
+# @hammad.fauz/parser
 
+fork of @bbob/parser
 > Parses BBCode and returns array AST tree 
 
 Valid for use with [posthtml-render](https://github.com/posthtml/posthtml-render)
@@ -8,7 +8,7 @@ Valid for use with [posthtml-render](https://github.com/posthtml/posthtml-render
 ## Usage
 
 ```js
-import parse from '@bbob/parser'
+import parse from '@hammad.fauz/parser'
 
 const options = {
     onlyAllowTags: ['url', 'h'],
