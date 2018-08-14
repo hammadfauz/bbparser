@@ -1,6 +1,6 @@
 {
   "name": "@hammad.fauz/parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fast, flexible, and lean implementation of BBcode parser",
   "homepage": "https://github.com/hammadfauz/bbparser.git",
   "keywords": [
@@ -20,7 +20,6 @@
   ],
   "main": "dist/main.js",
   "dependencies": {
-    "@hammad.fauz/plugin-helper": "^1.0.0",
     "webpack": "^4.16.5"
   },
   "repository": {
@@ -28,7 +27,7 @@
     "url": "https://github.com/hammadfauz/bbparser.git"
   },
   "scripts": {
-    "build": "./node_modules/.bin/rollup -c"
+    "build": "webpack ./lib/index.js"
   },
   "author": "Hammad Fauz <hammad.fauz@gmail.com>",
   "license": "MIT",
