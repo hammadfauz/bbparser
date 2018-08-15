@@ -18,7 +18,7 @@
     "serialize",
     "html"
   ],
-  "main": "lib/main.js",
+  "main": "lib/index.js",
   "dependencies": {
     "babel": "^6.23.0",
     "webpack": "^4.16.5"
