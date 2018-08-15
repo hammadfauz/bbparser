@@ -1,6 +1,6 @@
 {
   "name": "@hammad.fauz/parser",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fast, flexible, and lean implementation of BBcode parser",
   "homepage": "https://github.com/hammadfauz/bbparser.git",
   "keywords": [
@@ -20,6 +20,7 @@
   ],
   "main": "lib/main.js",
   "dependencies": {
+    "babel": "^6.23.0",
     "webpack": "^4.16.5"
   },
   "repository": {
@@ -36,5 +37,10 @@
   },
   "files": [
     "lib"
-  ]
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1"
+  }
 }
