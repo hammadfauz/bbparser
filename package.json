@@ -1,6 +1,6 @@
 {
   "name": "@hammad.fauz/parser",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Fast, flexible, and lean implementation of BBcode parser",
   "homepage": "https://github.com/hammadfauz/bbparser.git",
   "keywords": [
